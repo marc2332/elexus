@@ -1,0 +1,16 @@
+{
+	"name": "tron",
+	"version": "1.0.0",
+	"description": "Simple but visually eficient Mocha reporter",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --reporter index.js"
+	},
+	"author": "Marc Espín",
+	"devDependencies": {
+		"mocha": "^8.1.1"
+	},
+	"dependencies": {
+		"chalk": "^4.1.0"
+	}
+}
