@@ -1,7 +1,7 @@
 const mocha = require('mocha')
 const chalk = require('chalk')
 
-function tron(runner) {
+function elexus(runner) {
 	mocha.reporters.Base.call(this, runner);
 	let passes = 0
 	let failures = 0
@@ -27,4 +27,4 @@ function tron(runner) {
 	})
 }
 
-module.exports = tron
+module.exports = elexus
